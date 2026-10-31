@@ -1,0 +1,32 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+.venv_backup/
+venv/
+env/
+ENV/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+
+# Generated runtime data
+backend/data/*.db
+backend/data/*.sqlite3
+backend/data/*.sqlite
+backend/**/*.db
+
+# OS/editor files
+.DS_Store
+Thumbs.db
